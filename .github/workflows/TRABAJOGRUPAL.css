@@ -1,0 +1,191 @@
+*{
+ 
+    margin: 0;
+}
+.encabezado{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #09305a;
+    border-bottom: solid 0.2em #3f788fda;
+}
+.titulo{
+    margin: 0 0 1% 0;
+    padding: 0;
+}
+
+.nombre{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 1em;
+    font-family: 'Cinzel Decorative', cursive;
+    margin: 1% 0 0.5% 0;
+    padding: 0;
+    color: rgb(201, 201, 209);
+}
+
+.eslogan{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 0.46em;
+    margin: 0 0 0.85em 0;
+    padding: 0;
+    color: rgb(201, 201, 209);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navs{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    margin: 0em 0.3em 0em 0.3em;
+    text-decoration: none;
+    border-radius: 1em;
+    text-align: center;
+    color: rgb(201, 201, 209);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    padding-top: 0.40em;
+    margin: 0 2.2em 0 2.2em;
+    transition: 0.3s ease-in;
+}
+
+a:hover{
+    color: #021120;
+}
+
+.buscador{
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 15px;
+    padding: 5px 10px;
+    font-size: 14px;  
+    border-radius: 30px;
+    background-color: #0678a5; 
+    border: solid #3f788f;
+    margin-right: 0.23em;
+    margin-bottom: 0.5em;
+}
+.buscador::placeholder{
+    color: #fff;
+}
+.button{
+    margin: 0.175em 0.9em 0.5em 0;
+    border-radius: 14px;
+    border: none;
+    font-weight: 590;
+    max-height: 27px;
+    overflow: hidden;
+    max-width: 27px;
+    cursor: pointer;
+}
+.img_buscador{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: none;
+}
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+div{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 10.6em;
+    margin: 2em 3em 2em 3em;
+    padding:0;
+    background-color: #fff;
+    border: solid #3f788f;
+    border-radius: 3%;
+}
+
+img{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 8em;
+    height: 12em;
+    padding: 0;
+    border-radius: 2%;
+    margin: 1em 0em 0em 0em;
+    border: solid 3px #000;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+img:hover{
+    width: 98%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+.titulo_peli{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.estrellita{
+    width: 0.8em;
+    height: 0.8em;
+    border: none;
+    background-color: #0678a5;
+    margin-left: 0.2em;
+    margin-top: 0;
+}
+
+.estrellita_puntaje{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0678a5;
+    justify-content: center;
+}
+aside{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 112, 0.5), rgba(0, 0, 94, 0.5)), 
+    url("https://img.freepik.com/foto-gratis/collage-fondo-pelicula_23-2149876004.jpg?t=st=1725069154~exp=1725069754~hmac=73decf940ae75fc8d4cdd3ce30e009629506623b2259be9691146c80805f5813");
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 2em 0 0 0;
+    padding: 0;
+}
+
+.button-aside{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    margin: 1em;
+    color: rgb(201, 201, 209);
+}
+
+footer{
+    background-color: #09305a;
+    border-top: solid 0.2em #3f788fda;
+}
